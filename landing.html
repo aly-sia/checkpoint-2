@@ -8,29 +8,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/ACA_web101_Alysia_Lopez/myPortfolio/styles/style.css">
+  <link rel="stylesheet" href="landing.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-  <body>
-    <header>
-            <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <nav>
-                <a class="animated tada" href="./src/resume.html">Resume</a>
-                <a class="animated tada" href="">About Me</a>
-                <a class="animated tada" href="./src/blog.html">My Blog</a>
-                <a class="animated tada" class="has-border" href="./src/contact-me.html">Contact Me</a>
-                       </nav>
-
-    </header>
-    <main>
-        <img src="images/myProfilePic.png" id="profile-pic" alt="Headshot of Me" media="(max-width: 400px)">
-         <h1 class="animated bounceInUp">Alysia Lopez</h1>
-         <h2>Student of Web Development</h2>
-         <button><a href="https://aly-sia.github.io/ACA_web101_Alysia_Lopez/myPortfolio/src/dashboard.html"></a>Portfolio</button>
-          </div>
-    </main>
-  </body>
+<body>
+<div id="main">
+  <header id="header">
+    <img id="header-img" src="https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/keyboard-debra-hurd.jpg" alt="Image from fineartamerica.">
+      <nav id="nav-bar">
+          <ul class="main-nav">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+            <li><a href="#"><i class="fa fa-google"></i></a></li> 
+            <li><a href="#"><i class="fa fa-instagram"></i></a> </li>
+            <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+        </div>
+  </header>
+  <div id="body">  
+    <h2 id="h2email">Sign Up for Our Newsletter:</h2>
+    <form id="form" action="" method="post">     
+      <label id="email-label" for="email">Email:</label>
+     <input id="email" name="email" type="email" placeholder="Email"><br>
+      <input id="submit" type="submit" value="Sign Up">
+      <div id="purchases">
+      <h2 id="h2buy">Sweets and treats</h2>
+      <div id="buy">
+        <div id="donut" class="product">
+          <h3>Donuts</h3>
+          <img id="donutpic" src="img/donut.jpg">
+          <h4>There's a flavor for everyone</h4><h4>Made with fresh, local ingredients</h4><h4>Donuts</h4>
+          <button>learn more about our donuts</button>
+        </div>
+        <div id="coffee" class="product">
+          <h3>Coffee</h3>
+          <img id="coffeepic" src="img/coffee.jpg">
+          <h4>Sourced locally</h4><h4>Bold, rich and complex flavor</h4><h4>For hear or to-go</h4>
+          <button>learn about our coffee</button>
+        </div>
+        <div id="bread" class="product">
+          <h3>Breads and Pastries</h3>
+          <img id="breadpic" src="img/bread.jpg">
+          <h4>Baked daily in house</h4><h4>Made with the freshest ingredients</h4><h4>From croissants to whole wheat loaves, we have it all</h4>
+          <button id="3b">learn more about our breads and pastries</button>
+        </div>
+      </div>
+      </div>
+    </form> 
+  </div>  
+</div>
+</body>
 </html>

@@ -32,13 +32,96 @@ header {
     color: white;
     text-decoration: none;
   }
-  .aboutme {
-      width:100%;
+  h1 {
+    margin: 10px;
+  } 
+  #main {
+    background-color: white;
+    width: 100%;
+    font-family: Didot;
   }
-  .aboutme .col-left, .aboutme .col-right {
-      width: 50%;
-      float: left;
+  #h2email {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
-  .aboutme .col-left img {
-      max-width: 100%;
+  form {
+    margin-left: 40px;
+    padding-bottom: 40px;
+    line-height: 20px;
+  }
+  #h2buy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+  }
+  .product {
+    border: 3px;
+    border-style: solid;
+    margin: 10px;
+    width: 250px;
+    background-color: #white;
+    text-align: center;
+    height: 300px;
+  }
+  #purchases {
+    background-color: #white;
+    margin-left: -40px;
+    padding-bottom: 30px;
+  }
+  #submit {
+    margin-top: 10px;
+  }
+  #coffeepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+  }
+  #breadpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+  }
+  #donutpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+  }
+  h4 {
+    margin: 10px;
+  }
+  h3 {
+    margin: 10px;
+    text-align: center;
+  }
+  button {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  @media (max-width: 600px) {
+    #buy {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    }
   }

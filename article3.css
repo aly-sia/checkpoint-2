@@ -1,0 +1,80 @@
+header {
+    position: fixed; 
+    top: 0;
+    background-color:transparent;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+    z-index: 1;
+    color: white;
+  }
+  .main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+  }
+  #nav-bar li {
+    float: left;
+  }
+  #nav-bar a {
+    display: block;
+    padding: 8px;
+  }
+  #header-img {
+    height: 60px;
+    margin-right: 20px;
+  }
+  .nav-link {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .aboutme {
+      width:100%;
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .aboutme:after {
+      content:'';
+      display: block;
+      clear: both;
+  }
+  .aboutme h2 {
+      color: black;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+  }
+  .aboutme h2:after {
+      content:'';
+      position: absolute;
+      width:80px;
+      height: 2px;
+      margin-left: -40px;
+      left: 50%;
+      bottom: 0px;
+      background-color: blue;
+  }
+  .aboutme .col-left, .aboutme .col-right {
+      width: 50%;
+      float: left;
+  }
+  .aboutme .col-left {
+      padding-left: 5%;
+      padding-right:5%;
+  }
+  .aboutme a {
+      background-color: #85af4b;
+      padding: 10px 25px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 20px;
+      font-size: 17px;
+      display: inline-block;
+  }
+  .aboutme .col-left img {
+      max-width: 100%;
+  }

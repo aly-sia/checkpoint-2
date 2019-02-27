@@ -32,9 +32,6 @@ header {
     color: white;
     text-decoration: none;
   }
-  h1 {
-    margin: 10px;
-  } 
   #main {
     background-color: white;
     width: 100%;
@@ -57,6 +54,9 @@ header {
     padding-top: 20px;
     color: black;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+
   }
   .product {
     border: 3px;
@@ -74,6 +74,7 @@ header {
   }
   #submit {
     margin-top: 10px;
+    margin-bottom: 30px;
   }
   #coffeepic {
     display: block;
@@ -109,13 +110,37 @@ header {
     margin: 10px;
     text-align: center;
   }
-  button {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  
+  .button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    .iframe-container {
+      overflow: hidden;
+      padding-top: 56.25%;
+      position: relative;
+    }
+    
+    .iframe-container iframe {
+       border: 0;
+       height: 100%;
+       left: 0;
+       position: absolute;
+       top: 0;
+       width: 100%;
+    }
+    
+    /* 4x3 Aspect Ratio */
+    .iframe-container-4x3 {
+      padding-top: 75%;
+    }
   @media (max-width: 600px) {
     #buy {
     display: flex;

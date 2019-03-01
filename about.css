@@ -59,13 +59,15 @@ header {
 
   }
   .product {
-    border: 3px;
-    border-style: solid;
-    margin: 10px;
+    border: 10px;
+    border-style: dotted;
+    margin: 20px;
     width: 250px;
     background-color: #white;
     text-align: center;
     height: 300px;
+    display: inline-block;
+    position: relative;
   }
   #purchases {
     background-color: #white;
@@ -111,14 +113,16 @@ header {
     text-align: center;
   }
   .button {
-    background-color: blue;
+    background-color: #ffd1dc;
     border: none;
     color: white;
     padding: 20px 34px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
     margin: 4px 2px;
     cursor: pointer;
     }
@@ -136,11 +140,10 @@ header {
        top: 0;
        width: 100%;
     }
-    
-    /* 4x3 Aspect Ratio */
     .iframe-container-4x3 {
       padding-top: 75%;
     }
+   
   @media (max-width: 600px) {
     #buy {
     display: flex;

@@ -32,14 +32,36 @@ header {
   color: white;
   text-decoration: none;
 }
-.fling-minislide {width:100%; height:600px; overflow:hidden; position:relative; }
-.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
-
+.fling-minislide {
+  width:100%; 
+  height:600px; 
+  overflow:hidden; 
+  position:relative; 
+}
+.fling-minislide img{ 
+  position:absolute; 
+  animation:fling-minislide 20s infinite; 
+  opacity:0; 
+  width: 100%; 
+  height: auto;
+}
+#headline {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
 .fling-minislide img:nth-child(4){animation-delay:0s;}
 .fling-minislide img:nth-child(3){animation-delay:5s;}
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;
+}
+
+@media only screen and (max-width: 600px) 
+ {
+  .fling-minislide {
+    margin-bottom: -350px;
+    }
 }
 
 

@@ -1,2 +1,64 @@
-<!--video, link about page in header-->
-<!--use an <iframe/> add a "placeholder" video we can replace later on-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+  <header id="header">
+      <img id="header-img" src="img/bakerylogo.jpg" alt="bakerylogo">
+      <nav id="nav-bar">
+          <ul class="main-nav">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+            <li><a href="#"><i class="fa fa-google"></i></a></li> 
+            <li><a href="#"><i class="fa fa-instagram"></i></a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="landing.html">Home</a></li>
+            </ul>
+          </nav>
+        </div>
+  </header>
+  <div id="body">  
+    <h2 id="h2email">Sign Up for Our Newsletter:</h2>
+    <form id="form" action="" method="post">     
+      <label id="email-label" for="email">Email:</label>
+     <input id="email" name="email" type="email" placeholder="Email"><br>
+      <input id="submit" type="submit" value="Sign Up">
+      <div class="iframe-container"><iframe src="https://www.youtube.com/embed/5GBo6NEiIFE" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe> 
+      </div>
+        <div id="purchases">
+      <span><h2 id="h2buy" class="animated bounce">Sweets and treats</h2></span>
+      <div id="buy">
+        <div id="donut" class="product">
+          <h3>Donuts</h3>
+          <img id="donutpic" src="img/donut.jpg">
+          <h4>There's a flavor for everyone</h4><h4>Donuts</h4><h4>Done Right</h4>
+          <a href="article1.html" class="button">learn about our donuts</a>
+        </div>
+        <div id="coffee" class="product">
+          <h3>Coffee</h3>
+          <img id="coffeepic" src="img/coffee.jpg">
+          <h4>Sourced locally</h4><h4>Bold, rich and complex flavor</h4><h4>For here or to-go</h4>
+          <a href="article2.html" class="button">learn about our coffee</a>
+        </div>
+        <div id="bread" class="product">
+          <h3>Breads and Pastries</h3>
+          <img id="breadpic" src="img/bread.jpg">
+          <h4>Baked daily</h4><h4>with the freshest ingredients</h4><h4>We take bread seriously</h4>
+          <a href="article3.html" class="button">learn about our breads</a>
+        </div>
+      </div>
+      </div>
+    </form> 
+  </div>  
+</div>
+</body>
+</html>

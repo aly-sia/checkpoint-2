@@ -1,0 +1,155 @@
+header {
+    position: fixed; 
+    top: 0;
+    background-color:transparent;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+    z-index: 1;
+    color: white;
+  }
+  .main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+  }
+  #nav-bar li {
+    float: left;
+  }
+  #nav-bar a {
+    display: block;
+    padding: 8px;
+  }
+  #header-img {
+    height: 60px;
+    margin-right: 20px;
+  }
+  .nav-link {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  #main {
+    background-color: white;
+    width: 100%;
+    font-family: Didot;
+  }
+  #h2email {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  form {
+    margin-left: 40px;
+    padding-bottom: 40px;
+    line-height: 20px;
+  }
+  #h2buy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+
+  }
+  .product {
+    border: 10px;
+    border-style: dotted;
+    margin: 20px;
+    width: 250px;
+    background-color: #white;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+  }
+  #purchases {
+    background-color: #white;
+    margin-left: -40px;
+    padding-bottom: 30px;
+  }
+  #submit {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  #coffeepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+  }
+  #breadpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+  }
+  #donutpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+  }
+  h4 {
+    margin: 10px;
+  }
+  h3 {
+    margin: 10px;
+    text-align: center;
+  }
+  .button {
+    background-color: #ffd1dc;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    .iframe-container {
+      overflow: hidden;
+      padding-top: 56.25%;
+      position: relative;
+    }
+    
+    .iframe-container iframe {
+       border: 0;
+       height: 100%;
+       left: 0;
+       position: absolute;
+       top: 0;
+       width: 100%;
+    }
+    .iframe-container-4x3 {
+      padding-top: 75%;
+    }
+   
+  @media (max-width: 600px) {
+    #buy {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    }
+  }
